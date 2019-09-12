@@ -2,6 +2,8 @@
   width: 85vw;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* for responsive */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* for responsive */
   grid-gap: 20px;
 }
