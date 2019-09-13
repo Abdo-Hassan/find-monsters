@@ -5,7 +5,6 @@ const Search = ({ placeholder, handleChange }) => {
     <div>
       <input
         className='search'
-        style={{ margin: 20 }}
         onChange={handleChange}
         type='search'
         name='q'
